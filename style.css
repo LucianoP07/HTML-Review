@@ -1,0 +1,83 @@
+html {
+  /* background-color: aqua; */
+  background-image: url("images/hospital-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+body {
+  background-color: rgba(255, 255, 255, 0.7);
+  font-family: "Prompt", sans-serif;
+  text-align: center;
+  padding: 50px 0px;
+  width: 600px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+#account1 {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 20px;
+}
+#account2 {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 20px;
+}
+div {
+  margin: auto;
+  text-align: center;
+  width: 450px;
+  background-color: lightskyblue;
+  border: 3px solid blue;
+  border-radius: 20px;
+  padding: 25px;
+}
+h3 {
+  color: grey;
+}
+.p1and2 {
+  color: grey;
+}
+
+hr {
+  width: 500px;
+  color: grey;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#signup {
+  color: blue;
+}
+
+input {
+  padding: 7px;
+  border-radius: 5px;
+}
+#account1:hover {
+  border: 2px solid red;
+  cursor: pointer;
+}
+
+#account2:hover {
+  border: 2px solid red;
+  cursor: pointer;
+}
+input:hover {
+  background-color: #2b6eb1;
+  color: white;
+}
+button:hover {
+  opacity: 0.5;
+}
+#forgot {
+  font-style: italic;
+}
